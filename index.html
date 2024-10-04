@@ -81,6 +81,174 @@
     </div>
 </nav>
 
+<!--products-->
+<section id="products" class="product-container">
+    <div class="header_wrap">
+        <img class="product_heading" src="assets/img/products_heading.png" alt="PRODUCTS" height="90px">
+        <p class="topic_p description_font" style="margin-top: 5px;">
+            A little bit of what we have done just to share & sense our bottom
+            heart pleasure by designing and building these amazing things with
+            you.
+        </p>
+    </div>
+
+
+    <div class="product_card_row">
+        <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                "
+                class="product-card-wrap p_1 "
+                id="product_wrap-1">
+            <div class="product_box"  id="product_box-1" onclick="loadDescMain(1)" >
+                <div class="product-img-div">
+                    <img src="assets/img/Tables_1.jpg" alt="" />
+                </div>
+                <h2 style="text-align: center; font-size: 24px; margin-top: 1rem; font-family: 'Darker Grotesque', sans-serif; font-weight: bold; letter-spacing: 1px;" class="product_own_titile sub_title_font">Desks/Tables</h2>
+            </div>
+            <div id="product_des-1" class="product_des description_font"></div>
+        </div>
+
+        <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                "
+                class="product-card-wrap p_2"
+                id="product_wrap-2">
+            <div class="product_box"  id="product_box-2"  onclick="loadDescMain(2)">
+                <div class="product-img-div">
+                    <img src="assets/img/Chairs_1.jpg" alt="" />
+                </div>
+                <h2 style="text-align: center; font-size: 24px; margin-top: 1rem; font-family: 'Darker Grotesque', sans-serif; font-weight: bold; letter-spacing: 1px;" class="product_own_titile sub_title_font">Chairs</h2>
+            </div>
+            <div id="product_des-2" class="product_des description_font"></div>
+        </div>
+
+        <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+
+                "
+                class="product-card-wrap p_3"
+                id="product_wrap-3">
+            <div class="product_box"  id="product_box-3" onclick="loadDescMain(3)">
+                <div class="product-img-div">
+                    <img src="assets/img/Flooring_1.jpg" alt="" />
+                </div>
+                <h2 style="text-align: center; font-size: 24px; margin-top: 1rem; font-family: 'Darker Grotesque', sans-serif; font-weight: bold; letter-spacing: 1px;" class="product_own_titile sub_title_font">Flooring</h2>
+            </div>
+            <div id="product_des-3" class="product_des description_font"></div>
+        </div>
+
+        <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                "
+                class="product-card-wrap p_4"
+                id="product_wrap-4">
+            <div class="product_box"  id="product_box-4"  onclick="loadDescMain(4)">
+                <div class="product-img-div">
+                    <img src="assets/img/Ceiling_1.jpg" alt="" />
+                </div>
+                <h2 style="text-align: center; font-size: 24px; margin-top: 1rem; font-family: 'Darker Grotesque', sans-serif; font-weight: bold; letter-spacing: 1px;" class="product_own_titile sub_title_font">Ceiling</h2>
+            </div>
+            <div id="product_des-4" class="product_des description_font"></div>
+        </div>
+
+        <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                "
+                class="product-card-wrap p_5"
+                id="product_wrap-5">
+            <div class="product_box"  id="product_box-5" onclick="loadDescMain(5)">
+                <div class="product-img-div">
+                    <img src="assets/img/Partitions_1.jpg" alt="" />
+                </div>
+                <h2 style="text-align: center; font-size: 24px; margin-top: 1rem; font-family: 'Darker Grotesque', sans-serif; font-weight: bold; letter-spacing: 1px;" class="product_own_titile sub_title_font" >Partitions</h2>
+            </div>
+            <div id="product_des-5" class="product_des description_font"></div>
+        </div>
+    </div>
+    <div id="produc_des_main_title" class="produc_des_main_title sub_title_font" style="display: none; background-color: #f6f6f6; border:2px solid #477855; margin-bottom: -2px; z-index: 1000; border-bottom: none; padding: 10px; font-size: 18px; font-weight: 600;   padding-left: 25px; padding-right: 25px; font-family: 'Darker Grotesque', sans-serif;"></div>
+    <div
+            class="product_des_main description_font"
+            id="product_des_main"
+            style="display: none; background-color: #f6f6f6; margin-left: 75px; margin-right: 75px; padding: 25px; border: 2px solid #477855; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); font-family: 'Darker Grotesque', sans-serif; font-size: 20px; letter-spacing: 0.5px;" >
+    </div>
+
+    <div
+            id="new_produc_des_main_title_1"
+            class="produc_des_main_title sub_title_font"
+            style="display: none; background-color: #f6f6f6; border:2px solid #477855; margin-bottom: -2px; z-index: 1000; border-bottom: none; padding: 10px; font-size: 18px; font-weight: 600;   padding-left: 25px; padding-right: 25px; margin-left: 4px; font-family: 'Darker Grotesque', sans-serif; font-weight: bold; font-size: 20px;">
+    </div>
+    <div
+            id="new_product_des-1"
+            class="new_product_des description_font"
+            style="display: none; background-color: #f6f6f6; margin-left: 75px; margin-right: 75px; padding: 25px; border: 2px solid #477855; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); font-family: 'Darker Grotesque', sans-serif; font-size: 20px; letter-spacing: 0.5px;">
+    </div>
+
+    <div
+            id="new_produc_des_main_title_2"
+            class="produc_des_main_title sub_title_font"
+            style="display: none; background-color: #f6f6f6; border:2px solid #477855; margin-bottom: -2px; z-index: 1000; border-bottom: none; padding: 10px; font-size: 18px; font-weight: 600;   padding-left: 25px; padding-right: 25px; margin-left: 4px; font-family: 'Darker Grotesque', sans-serif; font-weight: bold; font-size: 20px;">
+    </div>
+    <div
+            id="new_product_des-2"
+            class="new_product_des description_font"
+            style="display: none; background-color: #f6f6f6; margin-left: 75px; margin-right: 75px; padding: 25px; border: 2px solid #477855; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); font-family: 'Darker Grotesque', sans-serif; font-size: 20px; letter-spacing: 0.5px;">
+    </div>
+
+    <div
+            id="new_produc_des_main_title_3"
+            class="produc_des_main_title sub_title_font"
+            style="display: none; background-color: #f6f6f6; border:2px solid #477855; margin-bottom: -2px; z-index: 1000; border-bottom: none; padding: 10px; font-size: 18px; font-weight: 600;   padding-left: 25px; padding-right: 25px; margin-left: 4px; font-family: 'Darker Grotesque', sans-serif; font-weight: bold; font-size: 20px;">
+    </div>
+    <div
+            id="new_product_des-3"
+            class="new_product_des description_font"
+            style="display: none; background-color: #f6f6f6; margin-left: 75px; margin-right: 75px; padding: 25px; border: 2px solid #477855; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); font-family: 'Darker Grotesque', sans-serif; font-size: 20px; letter-spacing: 0.5px;">
+    </div>
+
+    <div
+            id="new_produc_des_main_title_4"
+            class="produc_des_main_title sub_title_font"
+            style="display: none; background-color: #f6f6f6; border:2px solid #477855; margin-bottom: -2px; z-index: 1000; border-bottom: none; padding: 10px; font-size: 18px; font-weight: 600;   padding-left: 25px; padding-right: 25px; margin-left: 4px; font-family: 'Darker Grotesque', sans-serif; font-weight: bold; font-size: 20px;">
+    </div>
+    <div
+            id="new_product_des-4"
+            class="new_product_des description_font"
+            style="display: none; background-color: #f6f6f6; margin-left: 75px; margin-right: 75px; padding: 25px; border: 2px solid #477855; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); font-family: 'Darker Grotesque', sans-serif; font-size: 20px; letter-spacing: 0.5px;">
+    </div>
+
+    <div
+            id="new_produc_des_main_title_5"
+            class="produc_des_main_title sub_title_font"
+            style="display: none; background-color: #f6f6f6; border:2px solid #477855; margin-bottom: -2px; z-index: 1000; border-bottom: none; padding: 10px; font-size: 18px; font-weight: 600;   padding-left: 25px; padding-right: 25px; margin-left: 4px; font-family: 'Darker Grotesque', sans-serif; font-weight: bold; font-size: 20px;">
+    </div>
+    <div
+            id="new_product_des-5"
+            class="new_product_des description_font"
+            style="display: none; background-color: #f6f6f6; margin-left: 75px; margin-right: 75px; padding: 25px; border: 2px solid #477855; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); font-family: 'Darker Grotesque', sans-serif; font-size: 20px; letter-spacing: 0.5px;">
+    </div>
+
+</section>
+
 <!--contact-->
 <section id="contact" class="contacts">
     <div class="header_wrap">
